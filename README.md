@@ -9,6 +9,7 @@ Wireframe below shows what the site will look like.
 https://wireframe.cc/pgHdbT
 https://wireframe.cc/zxikTj
 https://wireframe.cc/BjldLr
+https://wireframe.cc/phHiW9
 ```
 ## Component Hierarchy
 
