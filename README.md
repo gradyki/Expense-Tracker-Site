@@ -61,11 +61,11 @@ https://airtable.com/tblIan5VDCzPu1jlI/viweeMlsSBP0uBIoF?blocks=hide
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
 | Jan 20   | Proposal Approval / Airtable Setup         |          |
-| Oct 12   | Component Creation / Get, Set, Delete Data |          |
-| Oct 13   | Oct. 12 cont'd / CSS Components            |          |
-| Oct 14   | CSS Components cont'd / MVP                |          |
-| Oct 15   | Advanced CSS                               |          |
-| Oct 16   | Presentations                              |          |
+| Jan 21   | Component Creation / Get, Set, Delete Data |          |
+| Jan 22   | CSS Components                             |          |
+| Jan 23   | CSS Components                             |          |
+| Jan 24   | Advanced CSS                               |          |
+| Jan 27   | Presentations                              |          |
 
 ## Timeframes
 
