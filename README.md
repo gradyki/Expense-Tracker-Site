@@ -6,7 +6,10 @@ Expense Tracker is an Airtable and React built site that will allow users to tra
 ## Wireframes
 Wireframe below shows what the site will look like.
 
+https://wireframe.cc/pgHdbT
+
 ## Component Hierarchy
+
 
 
 ## API and Data Sample
