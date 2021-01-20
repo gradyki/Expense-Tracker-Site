@@ -1,7 +1,7 @@
 # Expense-Tracker-Site
 
 ## Project Description
-Expense Tracker is an Airtable and React built site that will allow users to track their work expenses.  From the homepage users will be able to navigate to and click on an icon that lead a corresponding page with their current monthly expenses by category of need to submitted, need to submit, and approved.  Their will also be a form to create new expenses with the date, amount, what the expense was for and whether it has been submitted.   Their will also be a delete feature.
+Expense Tracker is an Airtable and React built site that will allow users to track their work expenses.  From the homepage users will be able to see current approved expenses and navigate to a new page where they can submit new expenses to track.  There will also be a form to create new expenses with the date, amount, what the expense was for and whether it has been submitted.   There will also be a delete feature.
 
 ## Wireframes
 Wireframe below shows what the site will look like.
