@@ -26,10 +26,11 @@ https://airtable.com/tblIan5VDCzPu1jlI/viweeMlsSBP0uBIoF?blocks=hide
         {
             "id": "recIeui2z8zZ2y3pd",
             "fields": {
-                "Name": "Internet",
-                "Date": "2021-01-01",
-                "Notes": "Monthly allowance",
-                "Status": "Needs to Submit"
+                "status": "Submitted",
+                "date": "2021-01-01",
+                "notes": "Monthly allowance",
+                "name": "Internet",
+                "amount": 150
             },
             "createdTime": "2021-01-20T14:04:27.000Z"
         },
