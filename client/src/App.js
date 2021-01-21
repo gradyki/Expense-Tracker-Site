@@ -27,7 +27,8 @@ function App() {
         <main>
           <h2>Approved Expenses</h2>
           {expenses.map((expense) => (
-            <p>{expense.fields.name}
+            <p key={expense.id}>
+              {expense.fields.name}
               {expense.fields.date} 
               {expense.fields.notes} 
               {expense.fields.amount} 

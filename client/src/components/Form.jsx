@@ -32,21 +32,21 @@ function Form(props) {
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
-      <label htmlFor='name'>Date:</label>
+      <label htmlFor='date'>Date:</label>
       <input
         name='date'
         type='date'
         value={date}
         onChange={(e) => setDate(e.target.value)}
       />
-      <label htmlFor='name'>Amount:</label>
+      <label htmlFor='amount'>Amount:</label>
       <input
         name='amount'
         type='number'
         value={amount}
-        onChange={(e) => setAmount(e.target.value)}
+        onChange={(e) => setAmount(parseInt(e.target.value))}
       />
-      <label htmlFor='name'>Notes:</label>
+      <label htmlFor='notes'>Notes:</label>
       <input
         name='notes'
         type='text'
@@ -55,8 +55,8 @@ function Form(props) {
       />
       <label htmlFor='status'>Status:</label>
       <select onChange={(e)=> setStatus(e.target.value)}>
-        <option value={status}>Submitted</option>
-        <option value={status}>Need to Submit</option>
+        <option value={'Submitted'}>Submitted</option>
+        <option value={'Need to submit'}>Need to Submit</option>
       </select>
       <button type="submit">Submit</button>
         
