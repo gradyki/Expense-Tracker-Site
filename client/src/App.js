@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link, Route } from 'react-router-dom'
+import {  Route } from 'react-router-dom'
 import { baseURL, config } from './services'
 import axios from 'axios'
 import Form from './components/Form'
@@ -17,7 +17,7 @@ function App() {
       setExpenses(resp.data.records)
     }
     getExpenses()
-  }, [])
+  }, [toggleFetch])
   
 
   return (
