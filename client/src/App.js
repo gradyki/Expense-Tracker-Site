@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import {  Route } from 'react-router-dom'
 import { baseURL, config } from './services'
 import axios from 'axios'
+import Footer from './components/Footer'
 import Form from './components/Form'
 import Nav from './components/Nav'
 
@@ -31,7 +32,7 @@ function App() {
               {expense.fields.name}
               {expense.fields.date} 
               {expense.fields.notes} 
-              {expense.fields.amount} 
+              {expense.fields.amount}
               {expense.fields.status}
             </p>
           ))}
@@ -40,6 +41,7 @@ function App() {
       <Route path='/new'>
         <Form setToggleFetch={setToggleFetch}/>
       </Route>
+        <Footer />
     </div>
   );
 }
