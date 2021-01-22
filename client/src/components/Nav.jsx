@@ -7,7 +7,7 @@ function Nav() {
       <h2>Expense Tracker</h2>
       <div className='links'>
     <Link to='/'>Home</Link>
-        <Link to='/new'>New Expense</Link>
+        <Link to='/table'>Expenses</Link>
         </div>
       </nav>
   )

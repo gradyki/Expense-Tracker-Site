@@ -2,11 +2,11 @@ import { useEffect, useState } from 'react'
 import {  Route } from 'react-router-dom'
 import { baseURL, config } from './services'
 import axios from 'axios'
-
 import Footer from './components/Footer'
 import Form from './components/Form'
 import Nav from './components/Nav'
-import * as BootStrap from 'react-bootstrap'
+import Table from './components/Table'
+
 
 
 
@@ -22,43 +22,38 @@ function App() {
     getExpenses()
   }, [toggleFetch])
 
-
-  const createTable = (expense, index) => {
-    return (
-      <tr key={expense.id}>
-              <td>{expense.fields.name}</td>
-              <td>{expense.fields.date}</td>
-              <td>{expense.fields.notes}</td>
-              <td>{expense.fields.amount}</td>
-              <td>{expense.fields.status}</td>
-            </tr>
-    )
+  const sortName = () => {
+    console.log('sort name')
   }
+
+  const sortDate = () => {
+    console.log('sort date')
+  }
+
+  const sortNote = () => {
+    console.log('sort note')
+  }
+
+  const sortAmount = () => {
+    console.log('sort amount')
+  }
+
+  const sortStatus = () => {
+    console.log('sort status')
+  }
+
+
 
   return (
     <div className="App">
       <Nav />
-      <Route exact path='/'>
+      <Route exact path='/table'>
         <main>
           <h2>Approved Expenses</h2>
-          <BootStrap.Table striped bordered hover variant="dark">
-  <thead>
-    <tr>
-      
-      <th>Name</th>
-      <th>Date</th>
-      <th>Notes</th>
-                <th>Amount</th>
-                <th>Status</th>
-    </tr>
-  </thead>
-            <tbody>
-          {expenses.map(createTable)}
-  </tbody>
-</BootStrap.Table>
+          <Table expenses={expenses} sortName={sortName} sortDate={sortDate} sortNote={sortNote} sortAmount={sortAmount} sortStatus={sortStatus}/>
         </main>
       </Route>
-      <Route path='/new'>
+      <Route exact path='/'>
         <Form setToggleFetch={setToggleFetch}/>
       </Route>
         <Footer />

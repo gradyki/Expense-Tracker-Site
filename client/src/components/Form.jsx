@@ -8,7 +8,7 @@ function Form(props) {
   const [date, setDate] = useState('')
   const [amount, setAmount] = useState(0)
   const [notes, setNotes] = useState('')
-  const [status, setStatus] = useState('')
+  const [status, setStatus] = useState('Submitted')
   
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -54,7 +54,8 @@ function Form(props) {
         onChange={(e) => setNotes(e.target.value)}
       />
       <label htmlFor='status'>Status:</label>
-      <select onChange={(e)=> setStatus(e.target.value)}>
+      <select value={status} onChange={(e) => setStatus(e.target.value)}>
+        
         <option value={'Submitted'}>Submitted</option>
         <option value={'Need to submit'}>Need to Submit</option>
       </select>
