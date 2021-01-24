@@ -1,18 +1,12 @@
 /* e5e1ee-dffdff-90bede-68edc6-90f3ff */
 
-/* nav {
+nav {
   background-color: #90f3ff;
-  padding: 5px;
-  width: 100vw;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-direction: row;
 }
 
-.links {
-  order: 2;
-  align-self: flex-end;
-  margin: 5px;
-  justify-content: space-evenly;
-} */
+nav h2 {
+}
+
+a {
+  padding: 10px;
+}

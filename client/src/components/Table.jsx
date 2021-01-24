@@ -2,7 +2,7 @@ import * as BootStrap from 'react-bootstrap'
 
 function Table(props) {
   const {expenses,sortName, sortDate, sortNote, sortAmount, sortStatus}= props
-console.log(expenses)
+
   const createTableRows = (expense) => {
     return (
       <tr key={expense.id}>

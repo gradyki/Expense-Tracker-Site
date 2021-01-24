@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import Pages from './Pages'
 import "./Nav.css";
 
 function Nav() {
@@ -6,8 +6,7 @@ function Nav() {
     <nav>
       <h2>Expense Tracker</h2>
       <div className='links'>
-    <Link to='/'>Home</Link>
-        <Link to='/table'>Expenses</Link>
+    <Pages />
         </div>
       </nav>
   )

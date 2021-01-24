@@ -22,24 +22,76 @@ function App() {
     getExpenses()
   }, [toggleFetch])
 
+  
+  
+  
+
+  let expensesToSort = []
+  for (let i = 0; i < expenses.length; i++) {
+    expensesToSort.push(expenses[i])
+    
+    
+  }
+
+  
+
+
   const sortName = () => {
-    console.log('sort name')
+    expensesToSort.sort((a, b) => {
+      if (a.fields.name.toLowerCase() < b.fields.name.toLowerCase()) {
+        return -1
+      } else if (a.fields.name.toLowerCase() > b.fields.name.toLowerCase()) {
+        return 1
+      } else {
+        return 0
+      }
+    })
+
+    setExpenses(expensesToSort)
+    
+
   }
 
   const sortDate = () => {
-    console.log('sort date')
+    
   }
 
   const sortNote = () => {
-    console.log('sort note')
+    expensesToSort.sort((a, b) => {
+      if (a.fields.notes.toLowerCase() < b.fields.notes.toLowerCase()) {
+        return -1
+      } else if (a.fields.notes.toLowerCase() > b.fields.notes.toLowerCase()) {
+        return 1
+      } else {
+        return 0
+      }
+    })
+
+    setExpenses(expensesToSort)
+    
+
   }
 
   const sortAmount = () => {
-    console.log('sort amount')
+    expensesToSort.sort((a, b)=> {
+      return (a.fields.amount - b.fields.amount);
+    })
+    setExpenses(expensesToSort)
   }
 
   const sortStatus = () => {
-    console.log('sort status')
+    expensesToSort.sort((a, b) => {
+      if (a.fields.name.toLowerCase() > b.fields.name.toLowerCase()) {
+        return -1
+      } else if (a.fields.name.toLowerCase() < b.fields.name.toLowerCase()) {
+        return 1
+      } else {
+        return 0
+      }
+    })
+
+    setExpenses(expensesToSort)
+    
   }
 
 
@@ -49,7 +101,7 @@ function App() {
       <Nav />
       <Route exact path='/table'>
         <main>
-          <h2>Approved Expenses</h2>
+          <h2>Expenses</h2>
           <Table expenses={expenses} sortName={sortName} sortDate={sortDate} sortNote={sortNote} sortAmount={sortAmount} sortStatus={sortStatus}/>
         </main>
       </Route>
