@@ -1,11 +1,11 @@
 import Pages from './Pages'
-import "./Nav.css";
+
 
 function Nav() {
   return (
     <nav>
       <h2>Expense Tracker</h2>
-      <div className='links'>
+      <div className='navLinks'>
     <Pages />
         </div>
       </nav>

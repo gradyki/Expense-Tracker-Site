@@ -1,0 +1,64 @@
+/* e5e1ee-dffdff-90bede-68edc6-90f3ff */
+/* 88a2aa-ADA296-E2856E-F42C04-0F1A20 */
+
+nav {
+  display: flex !important;
+  background-color: #88a2aa;
+  padding: 5px;
+  width: 100vw;
+  justify-content: space-between;
+  border: 1px solid #f42c04;
+}
+nav h2 {
+  font-family: "Playfair Display";
+}
+
+.navLinks {
+  display: flex;
+  align-items: flex-end;
+}
+
+nav a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s;
+  font-family: "Playfair Display";
+  font-weight: 900;
+  color: #0f1a20;
+  padding: 5px;
+}
+
+nav a:hover {
+  border-bottom: 1px solid;
+  color: #e2856e;
+}
+
+#table-title {
+  text-align: center;
+  font-family: "Playfair Display";
+}
+#newHeader {
+  text-align: center;
+  font-family: "Playfair Display";
+}
+
+.form-display {
+  min-height: 75vh;
+}
+
+form {
+  display: flex;
+  width: 80vw;
+}
+
+.footer {
+  background-color: #88a2aa;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #f42c04;
+}
+
+img {
+  height: 75px;
+  padding: 10px;
+}

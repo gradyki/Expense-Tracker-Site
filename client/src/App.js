@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Form from './components/Form'
 import Nav from './components/Nav'
 import Table from './components/Table'
+import "./App.css";
 
 
 
@@ -24,7 +25,7 @@ function App() {
 
   
   
-  
+
 
   let expensesToSort = []
   for (let i = 0; i < expenses.length; i++) {
@@ -33,8 +34,8 @@ function App() {
     
   }
 
+ 
   
-
 
   const sortName = () => {
     expensesToSort.sort((a, b) => {
@@ -53,7 +54,10 @@ function App() {
   }
 
   const sortDate = () => {
-    
+    expensesToSort.sort((a, b) => {
+      return (a.fields.date.localeCompare(b.fields.date))
+    })
+    setExpenses(expensesToSort)
   }
 
   const sortNote = () => {
@@ -81,9 +85,9 @@ function App() {
 
   const sortStatus = () => {
     expensesToSort.sort((a, b) => {
-      if (a.fields.name.toLowerCase() > b.fields.name.toLowerCase()) {
+      if (a.fields.status.toLowerCase() < b.fields.status.toLowerCase()) {
         return -1
-      } else if (a.fields.name.toLowerCase() < b.fields.name.toLowerCase()) {
+      } else if (a.fields.status.toLowerCase() > b.fields.status.toLowerCase()) {
         return 1
       } else {
         return 0
@@ -101,7 +105,7 @@ function App() {
       <Nav />
       <Route exact path='/table'>
         <main>
-          <h2>Expenses</h2>
+          <h2 id='table-title'>Expenses</h2>
           <Table expenses={expenses} sortName={sortName} sortDate={sortDate} sortNote={sortNote} sortAmount={sortAmount} sortStatus={sortStatus}/>
         </main>
       </Route>

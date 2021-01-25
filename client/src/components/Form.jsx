@@ -3,6 +3,7 @@ import axios from 'axios'
 import { baseURL, config } from '../services'
 
 
+
 function Form(props) {
   const [name, setName] = useState('')
   const [date, setDate] = useState('')
@@ -23,8 +24,9 @@ function Form(props) {
     props.setToggleFetch((prev)=> !prev)
   }
   return (
+    <section className='form-display'>
     <form onSubmit={handleSubmit}>
-      <h3>Enter a new expense</h3>
+      <h2 id='newHeader'>New Expense</h2>
       <label htmlFor='name'>Name:</label>
       <input
         name='name'
@@ -61,7 +63,9 @@ function Form(props) {
       </select>
       <button type="submit">Submit</button>
         
-    </form>
+      </form>
+      </section>
+      
   )
 }
 

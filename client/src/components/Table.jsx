@@ -9,7 +9,7 @@ function Table(props) {
               <td>{expense.fields.name}</td>
               <td>{expense.fields.date}</td>
               <td>{expense.fields.notes}</td>
-              <td>{expense.fields.amount}</td>
+              <td>${expense.fields.amount}</td>
               <td>{expense.fields.status}</td>
             </tr>
     )

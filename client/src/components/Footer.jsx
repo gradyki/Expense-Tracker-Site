@@ -1,10 +1,10 @@
-import Github from './Github'
-import "./Footer.css";
+import FooterLinks from './FooterLinks'
+
 
 function Footer() {
   return (
     <footer className='footer'>
-      <Github />
+      <FooterLinks />
     </footer>
   )
 }
