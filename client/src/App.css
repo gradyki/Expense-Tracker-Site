@@ -43,6 +43,7 @@ nav a:hover {
   font-family: "Playfair Display";
   display: flex;
   justify-content: center;
+  align-self: center;
 }
 
 main {
@@ -51,14 +52,26 @@ main {
 
 form {
   display: grid;
-  grid-template-rows: 10;
+  grid-template-rows: repeat(5, 1fr);
   width: 100vw;
   height: 80vh;
+}
+
+form label {
+  font-family: "Playfair Display";
+  padding: 5px;
+}
+
+form input {
+  font-family: "Playfair Display";
+  width: 15vw;
+  box-sizing: border-box;
 }
 
 .name-date {
   grid-row: 2/3;
   display: flex;
+  margin-right: 5px;
   flex-direction: row;
   padding-bottom: 5px;
   padding: 5px;
@@ -69,6 +82,7 @@ form {
 .amount-notes {
   grid-row: 3/4;
   display: flex;
+  margin-right: 16px;
   flex-direction: row;
   padding-bottom: 5px;
   padding: 5px;
@@ -84,6 +98,18 @@ form {
   padding: 5px;
   align-items: center;
   justify-content: center;
+}
+
+.button {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+button {
+  height: 70px;
+  width: 120px;
+  border-radius: 10% !important;
 }
 
 .footer {

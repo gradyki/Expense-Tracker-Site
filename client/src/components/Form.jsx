@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 import axios from 'axios'
 import { baseURL, config } from '../services'
 
@@ -10,6 +11,7 @@ function Form(props) {
   const [amount, setAmount] = useState(0)
   const [notes, setNotes] = useState('')
   const [status, setStatus] = useState('Work')
+  const history= useHistory()
   
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -21,7 +23,8 @@ function Form(props) {
       status,
     }
     await axios.post(baseURL, { fields }, config)
-    props.setToggleFetch((prev)=> !prev)
+    props.setToggleFetch((prev) => !prev)
+    history.push('/table')
   }
   return (
     <main>
@@ -70,7 +73,9 @@ function Form(props) {
         
         <option value={'Work'}>Work</option>
         <option value={'Personal'}>Personal</option>
-      </select>
+          </select>
+        </div>
+        <div className='button'>
       <button type="submit">Submit</button>
       </div>
       </form>
