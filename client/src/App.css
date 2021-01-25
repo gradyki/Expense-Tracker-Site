@@ -36,19 +36,54 @@ nav a:hover {
 #table-title {
   text-align: center;
   font-family: "Playfair Display";
+  padding-top: 25px;
 }
-#newHeader {
+#new-expense {
   text-align: center;
   font-family: "Playfair Display";
+  display: flex;
+  justify-content: center;
 }
 
-.form-display {
+main {
   min-height: 75vh;
 }
 
 form {
+  display: grid;
+  grid-template-rows: 10;
+  width: 100vw;
+  height: 80vh;
+}
+
+.name-date {
+  grid-row: 2/3;
   display: flex;
-  width: 80vw;
+  flex-direction: row;
+  padding-bottom: 5px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.amount-notes {
+  grid-row: 3/4;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+  grid-row: 4/5;
+  padding-bottom: 5px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer {

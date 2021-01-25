@@ -24,9 +24,13 @@ function Form(props) {
     props.setToggleFetch((prev)=> !prev)
   }
   return (
-    <section className='form-display'>
-    <form onSubmit={handleSubmit}>
-      <h2 id='newHeader'>New Expense</h2>
+    <main>
+      <form onSubmit={handleSubmit}>
+        <div id='new-expense'>
+        <h3>New Expense</h3>
+        </div>
+
+        <div className='name-date'>
       <label htmlFor='name'>Name:</label>
       <input
         name='name'
@@ -40,7 +44,10 @@ function Form(props) {
         type='date'
         value={date}
         onChange={(e) => setDate(e.target.value)}
-      />
+          />
+        </div>
+        
+        <div className='amount-notes'>
       <label htmlFor='amount'>Amount:</label>
       <input
         name='amount'
@@ -54,7 +61,10 @@ function Form(props) {
         type='text'
         value={notes}
         onChange={(e) => setNotes(e.target.value)}
-      />
+          />
+        </div>
+        
+        <div className='status'>
       <label htmlFor='status'>Status:</label>
       <select value={status} onChange={(e) => setStatus(e.target.value)}>
         
@@ -62,9 +72,9 @@ function Form(props) {
         <option value={'Personal'}>Personal</option>
       </select>
       <button type="submit">Submit</button>
-        
+      </div>
       </form>
-      </section>
+      </main>
       
   )
 }
