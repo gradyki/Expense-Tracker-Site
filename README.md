@@ -70,36 +70,30 @@ https://airtable.com/tblIan5VDCzPu1jlI/viweeMlsSBP0uBIoF?blocks=hide
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
-| Jan 20   | Proposal Approval / Airtable Setup         |          |
-| Jan 21   | Component Creation / Get, Set, Delete Data |          |
-| Jan 22   | CSS Components                             |          |
-| Jan 23   | CSS Components                             |          |
-| Jan 24   | Advanced CSS                               |          |
-| Jan 27   | Presentations                              |          |
+| Jan 20   | Proposal Approval / Airtable Setup         |Complete  |
+| Jan 21   | Component Creation / Get, Set, Delete Data |Complete  |      
+| Jan 22   | CSS Components                             |Complete  |          
+| Jan 23   | CSS Components                             |Complete  |          
+| Jan 24   | Advanced CSS                               |Complete  |          
+| Jan 27   | Presentations                              |Complete  |          
 
 ## Timeframes
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |               |             |
-| Airtable setup            |    H     |      1hr       |               |             |
-| Clickable Links           |    H     |      2hrs      |               |             |
-| Data population pg 1      |    H     |      2hrs      |               |             |
-| Data population pg 2      |    H     |      2hrs      |               |             |
-| Data population pg 3      |    H     |      2hrs      |               |             |
-| Form creation pg 1        |    H     |      2hrs      |               |             |
-| Form creation pg 2        |    H     |      2hrs      |               |             |
-| Form creation pg 3        |    H     |      2hrs      |               |             |
-| Data creation/update pg 1 |    H     |      3hrs      |               |             |
-| Data creation/update pg 2 |    H     |      3hrs      |               |             |
-| Data creation/update pg 3 |    H     |      3hrs      |               |             |
-| Data deletion pg 1        |    H     |      2hrs      |               |             |
-| Data deletion pg 2        |    H     |      2hrs      |               |             |
-| Data deletion pg 3        |    H     |      2hrs      |               |             |
-| Component CSS pg 1        |    H     |      3hrs      |               |             |
-| Component CSS pg 2        |    H     |      3hrs      |               |             |
-| Component CSS pg 3        |    H     |      3hrs      |               |             |
-| Total                     |    H     |      41hrs     |       hrs     |             |
+| Proposal                  |    H     |      2hrs      |   3 hrs       |    3 hrs    |
+| Airtable setup            |    H     |      2hr       |   1 hrs       |    1 hr     |
+| Clickable Links           |    H     |      2hrs      |   2 hrs       |    2 hrs    |
+| Data population           |    H     |      4hrs      |   3 hrs       |    3 hrs    |
+| Building Components       |    H     |      4hrs      |   5 hrs       |    5 hrs    |
+| Form creation             |    H     |      3hrs      |   2 hrs       |    2 hrs    |
+| Data creation/update      |    H     |      4hrs      |   3 hrs       |   3 hrs     |
+| Building Table            |    H     |      3hrs      |   4 hrs       |             |
+| Sorting Tables            |    H     |      4hrs      |   6 hrs       |             |
+| Basic CSS                 |    H     |      4hrs      |   4 hrs       |             |
+| UX Fine Tuning            |    H     |      3hrs      |   2 hrs       |             |
+| Advanced CSS.             |    H     |      4hrs      |   4 hrs       |             |
+| Total                     |    H     |      39hrs     |    39  hrs    |             |
 
 ## SWOT Analysis
 
