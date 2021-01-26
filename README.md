@@ -88,12 +88,12 @@ https://airtable.com/tblIan5VDCzPu1jlI/viweeMlsSBP0uBIoF?blocks=hide
 | Building Components       |    H     |      4hrs      |   5 hrs       |    5 hrs    |
 | Form creation             |    H     |      3hrs      |   2 hrs       |    2 hrs    |
 | Data creation/update      |    H     |      4hrs      |   3 hrs       |   3 hrs     |
-| Building Table            |    H     |      3hrs      |   4 hrs       |             |
-| Sorting Tables            |    H     |      4hrs      |   6 hrs       |             |
-| Basic CSS                 |    H     |      4hrs      |   4 hrs       |             |
-| UX Fine Tuning            |    H     |      3hrs      |   2 hrs       |             |
-| Advanced CSS.             |    H     |      4hrs      |   4 hrs       |             |
-| Total                     |    H     |      39hrs     |    39  hrs    |             |
+| Building Table            |    H     |      3hrs      |   4 hrs       |   4 hrs     |
+| Sorting Tables            |    H     |      4hrs      |   6 hrs       |   6 hrs     | 
+| Basic CSS                 |    H     |      4hrs      |   4 hrs       |   4 hrs     |
+| UX Fine Tuning            |    H     |      3hrs      |   2 hrs       |   2 hrs     |
+| Advanced CSS.             |    H     |      4hrs      |   4 hrs       |   4 hrs     |
+| Total                     |    H     |      39hrs     |    39  hrs    |   39 hrs    |
 
 ## SWOT Analysis
 
