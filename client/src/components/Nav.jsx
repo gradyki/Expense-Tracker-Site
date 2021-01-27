@@ -5,7 +5,7 @@ function Nav() {
   return (
     <nav>
       <h2>Expense Tracker</h2>
-      <div className='navLinks'>
+      <div className='nav-links'>
     <Pages />
         </div>
       </nav>

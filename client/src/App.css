@@ -13,7 +13,7 @@ nav h2 {
   font-family: "Playfair Display";
 }
 
-.navLinks {
+.nav-links {
   display: flex;
   align-items: flex-end;
 }
